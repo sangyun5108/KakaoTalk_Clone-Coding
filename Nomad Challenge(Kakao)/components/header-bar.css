@@ -1,0 +1,20 @@
+.header-bar {
+    display: flex;
+    justify-content: space-between;
+    padding: 0 10px;
+    margin-top: 20px;
+    padding-bottom: 10px;
+}
+
+.phone-status__header-bar {
+    background-color: white;
+}
+
+.header-bar span {
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.header-bar i {
+    margin-left: 15px;
+}

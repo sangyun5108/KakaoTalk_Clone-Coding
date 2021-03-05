@@ -1,0 +1,15 @@
+@import "reset.css";
+
+/* components */
+@import "components/phone-status.css";
+@import "components/header-bar.css";
+@import "components/kakao__row-bar.css";
+@import "components/underbar-status.css";
+@import "components/no-mobile.css";
+
+
+@import "css/friend.css";
+@import "css/chats.css";
+@import "css/news.css";
+@import "css/seemore.css";
+@import "css/chat.css";

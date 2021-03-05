@@ -1,0 +1,147 @@
+.kakao__row-bar {
+    display: flex;
+    align-items: center;
+    margin: 15px 15px;
+    padding-bottom: 16px;
+    border-bottom: 1px solid gainsboro;
+}
+
+.kakao__row-bar img {
+    width: 55px;
+    height: 55px;
+    border-radius: 22px;
+}
+
+.kakao__row-bar__name-state {
+    display: flex;
+    flex-direction: column;
+    margin-left: 12px;
+    width: 100px;
+}
+
+.kakao__row-bar__name-state__name {
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.kakao__row-bar__name-state__state {
+    margin-top: 5px;
+    font-size: 12px;
+}
+
+.kakao__row-bar__music-state {
+    width: 200px;
+    height: 10px;
+    font-size: 13px;
+    margin-left: 110px;
+    border: 2px solid rgb(33, 219, 33);
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    padding: 7px 5px;
+}
+
+.kakao__row-bar__music-state span {
+    opacity: 0.7;
+}
+
+.kakao__row-bar__music-state i {
+    margin-left: 22px;
+    color: rgb(33, 219, 33);
+}
+
+.kakao__row-bar2 {
+    height: 70px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 15px 15px;
+    padding-bottom: 16px;
+    border-bottom: 1px solid gainsboro;
+    position: relative;
+}
+
+.kakao__row-bar2__title {
+    font-size: 12px;
+    font-weight: bold;
+    opacity: 0.6;
+    margin-bottom: 8px;
+}
+
+.kakao__row-bar2__img {
+    width: 40px;
+    height: 40px;
+    background-color: rgb(226, 218, 218);
+    border-radius: 16px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.kakao__row-bar2__img-content {
+    display: flex;
+}
+
+.kakao__row-bar2__img-icon {
+    font-size: 30px;
+    margin-bottom: 8px;
+}
+
+.kakao__row-bar2__contents {
+    display: flex;
+    align-items: center;
+}
+
+.kakao__row-bar2__contents-content {
+    margin-left: 10px;
+}
+
+.fa-angle-up {
+    position: absolute;
+    right: 10px;
+    top: 3px;
+    opacity: 0.3;
+}
+
+.fa-birthday-cake {
+    font-size: 20px;
+    margin-bottom: 8px;
+    color: white;
+}
+
+.kakao__row-bar-version2 .kakao__row-bar2:nth-child(2) .kakao__row-bar2__img {
+    background-color: #ff616f
+}
+.kakao__row-bar-version2 .kakao__row-bar2:nth-child(2) .kakao__row-bar2__contents-rightcontent {
+    position: absolute;
+    right: 5px;
+    font-size: 13px;
+    font-weight: bold;
+    opacity: 0.3;
+    margin-top: 10px;
+}
+
+
+.fa-comment {
+    font-size: 20px;
+
+}
+
+.kakao__row-bar-version2 .kakao__row-bar2:nth-child(3) .kakao__row-bar2__img {
+    background-color: yellow;
+}
+
+.kakao__row-bar-version2 .kakao__row-bar2:nth-child(3) .kakao__row-bar2__contents-rightcontent {
+    position: absolute;
+    right: 5px;
+    font-size: 13px;
+    font-weight: bold;
+    opacity: 0.3;
+}
+
+.friend-number {
+    font-size: 13px;
+    margin-left: 15px;
+    opacity: 0.5;
+    font-weight: bold;
+}

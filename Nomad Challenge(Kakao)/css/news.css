@@ -1,0 +1,140 @@
+.news_html {
+    width: 475px;
+}
+
+.news__advertisement {
+    height: 120px;
+    margin: 0px;
+    border-radius: 0px;
+    z-index: -9999;
+}
+
+.news__advertisement .chats__advertisement__title {
+    margin-top: 10px;
+}
+
+.chats__advertisement {
+    position: relative;
+}
+
+.chats__advertisement__patient-number {
+    width: 495px;
+    display: flex;
+    align-items: center;
+    margin-top: 70px;
+    background-color: white;
+    height: 50px;
+    position: absolute;
+    left: 0px;
+}
+
+.chats__advertisement__patient-number .patient-number {
+    margin-left: 7px;
+}
+
+.chats__advertisement__patient-number .number {
+    color: red;
+    margin-left: 5px;
+}
+
+
+.chats__advertisement__patient-number .time {
+    font-size: 10px;
+    margin: 0px 7px;
+    margin-top: 3px;
+    opacity: 0.6;
+    
+}
+
+.chats__advertisement__QRcode {
+    width: 100px;
+    border: 1px solid rgb(53, 81, 220);
+    border-radius: 20px;
+    color: rgb(53, 81, 220);
+    margin-left: 100px;
+    margin-right: 10px;
+    padding: 5px 8px;
+}
+
+.news__advertisement__row-article {
+    width: 465px;
+    height: 30px;
+    display: flex;
+    align-items: center;
+    margin-top: 8px;
+    padding-bottom: 8px;
+    margin-left: 10px;
+    border-bottom: 1px solid lightgrey;
+}
+
+.article__contents {
+    margin-bottom: 0px;
+}
+
+.news__search-bar {
+    position: relative;
+    margin-top: 85px;
+    border-radius: 15px;
+    box-shadow: 1px 0px 5px 0px;
+    position: fixed;
+    top: 457px;
+    left: 0px;
+    width: 100%;
+    height: 150px;
+    background-color: rgb(255, 250, 250);
+
+}
+
+.news__search-bar__search {
+    margin-bottom: 10px;
+}
+
+
+.news__search-bar__search input{
+    width:430px;
+    height: 30px;
+    margin-left: 20px;
+    margin-top: 5px;
+    outline: none;
+    border: none;
+    border: 3px solid yellow;
+    border-radius: 10px;
+
+}
+
+.news__search-bar__search-icon  {
+    position: absolute;
+    right: 48px;
+    top: 12px;
+    opacity: 0.5;
+}
+
+.news__search-bar__contents__row {
+    display: flex;
+    margin-left:18px;
+    margin-bottom: 2px;
+}
+
+.news__search-bar__contents__row-two {
+    margin-bottom: 20px;
+}
+
+.news__search-bar__content {
+    background-color: rgb(13, 13, 162);
+    color: white;
+    font-size: 12px;
+    border-radius: 10px;
+    padding: 5px 5px;
+    margin-right: 10px;
+}
+
+.news__search-bar__content:nth-child(2),
+.news__search-bar__content:nth-child(3) {
+    background-color: lightgrey;
+    color: black;
+}
+
+.news__search-bar__contents__row:nth-child(2) .news__search-bar__content:nth-child(1){
+    background-color: lightgrey;
+    color: black;
+}

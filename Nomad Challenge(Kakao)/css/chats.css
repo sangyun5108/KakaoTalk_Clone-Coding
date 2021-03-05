@@ -1,0 +1,68 @@
+.chats__advertisement {
+    display: flex;
+    z-index: -150;
+    flex-direction: column;
+    background-color: rgb(226, 226, 226);
+    margin: 0px 10px;
+    padding: 15px 15px;
+    border-radius: 5px;
+    position: relative;
+}
+
+.chats__advertisement__title {
+    font-weight: bold;
+}
+
+.chats__advertisement__date {
+    font-size: 13px;
+    opacity: 0.5;
+}
+
+.chats__advertisement__icons {
+    position: absolute;
+    right: 50px;
+    top: 13px;
+    font-size: 30px;
+}
+
+.chats__advertisement__icons .fa-grin-hearts {
+    margin-left: 20px;
+}
+
+.chats__row-content .img{
+    width: 50px;
+    height: 50px;
+    background-color: yellow;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px;
+}
+
+.chats__row-content {
+    margin:35px 10px;
+    display: flex;
+    justify-content: flex-start;
+    position: relative;
+}
+
+.chats__row-content__person {
+    display: flex;
+    flex-direction: column;
+    margin-left: 15px;
+}
+
+.chats__row-content__person__message {
+    margin-top: 5px;
+    font-size: 13px;
+    opacity: 0.5;
+}
+
+.chats__row-content__time{
+    margin-left: 200px;
+    font-size: 12px;
+    opacity: 0.5;
+    position: absolute;
+    right: 5px;
+}
+

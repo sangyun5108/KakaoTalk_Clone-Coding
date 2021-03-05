@@ -1,0 +1,134 @@
+.chat-body {
+    background-color: rgb(144, 196, 233);
+}
+
+.chat-body .phone-status__header-bar {
+    background-color: rgb(144, 196, 233);
+}
+
+.chat-body .header-bar {
+    position: relative;
+}
+
+.chat-body .header-bar__name {
+    position: absolute;
+    left: 220px;
+    bottom: 9px;
+    font-size: 20px;
+}
+
+.chat-time {
+    margin-top: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 12px;
+    position: absolute;
+    left: 185px;
+    background-color: rgb(119, 118, 123);
+    color: white;
+    border-radius: 20px;
+    padding: 5px 8px;
+}
+
+.chat-row img {
+    width: 50px;
+    border-radius: 30px;
+}
+
+.chat-row {
+    margin-top: 30px;
+    display: flex;
+}
+
+.chat-row__content {
+    margin-left: 7px;
+}
+
+.chat-row__content .content{
+    margin-top: 5px;
+    font-size: 12px;
+    background: white;
+    font-weight: bold;
+    padding: 5px 5px;
+    border-radius: 15px;
+}
+
+.chat-row2 {
+    justify-content: flex-end;
+}
+
+.chat-row2 img {
+    margin-left: 7px;
+}
+
+.chat-row2 .chat-row__content {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+
+.chat-row2 .name {
+    font-weight: bold;
+}
+
+.chat__text-bar {
+    position: relative;
+    width: 500px;
+    background-color: white;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    position: fixed;
+    height: 50px;
+    left: 0px;
+    bottom: 0px;
+}
+
+.char__text-bar .chat__text-bar__left {
+    margin-left: 10px;
+}
+
+.chat__text-bar input {
+    width: 440px;
+    margin-left: 10px;
+    height: 25px;
+    border-radius: 15px;
+    border: 1px solid lightgrey;
+    padding: 2px 0px;
+    outline: none;
+    padding: 5px 5px;
+}
+
+.chat__text-bar__left {
+    width: 20px;
+    height: 20px;
+    background-color: white;
+    border: 1px solid black;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 13px;
+    margin-right: 0px;
+    margin-left: 10px;
+}
+
+.chat__text-bar__right {
+    position: absolute;
+    right: 25px;
+    display: flex;
+    align-items: center;
+}   
+
+.chat__text-bar__right__button {
+    border-radius: 50%;
+    height: 28px;
+    background-color: yellow;
+    margin-left: 8px;
+}
+
+.chat__text-bar__right .fa-smile {
+    opacity: 0.4;
+}
+
